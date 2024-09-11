@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/healthcheck/unhealthy"
+  },
+  "response": {
+    "status": 500,
+    "jsonBody": {
+      "status": "error",
+      "message": "Internal server error!"
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}

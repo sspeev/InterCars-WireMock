@@ -1,0 +1,16 @@
+{
+    "request": {
+      "method": "POST",
+      "urlPath": "/forbidden"
+    },
+    "response": {
+      "status": 403,
+      "statusMessage": "the server understands the request but refuses to authorize it.",
+      "headers":{
+        "Content-Type": "application/json"
+      },
+      "jsonBody" : {
+        "message" : "Email is not registered!"
+      }
+    }
+  }

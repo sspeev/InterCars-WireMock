@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/healthcheck/notFound"
+  },
+  "response": {
+    "status": 404,
+    "jsonBody": {
+      "status": "healthy",
+      "message": "Resource not found!"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

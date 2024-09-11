@@ -1,0 +1,19 @@
+{
+    "request": {
+      "method": "POST",
+      "urlPath": "/ok"
+    },
+    "response": {
+      "status": 200,
+      "statusMessage": "the request has succeeded.",
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+        "Access-Control-Allow-Headers": "Content-Type, Authorization"
+      },
+      "jsonBody" : {
+        "message" : "The email has been registered!" 
+      }
+    }
+  }

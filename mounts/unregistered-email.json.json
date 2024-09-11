@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/check-email",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.email == 'unregistered@example.com')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 403,
+    "body": "{\"message\": \"Email is not registered\"}",
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}

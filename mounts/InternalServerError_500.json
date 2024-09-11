@@ -1,0 +1,16 @@
+{
+    "request": {
+      "method": "POST",
+      "urlPath": "/internal"
+    },
+    "response": {
+      "status": 500,
+      "statusMessage": "the server encountered an unexpected condition that prevented it from fulfilling the request.",
+      "headers":{
+        "Content-Type": "application/json"
+      },
+      "jsonBody" : {
+        "message" : "Interanl Server Error!"
+      }
+    }
+  }

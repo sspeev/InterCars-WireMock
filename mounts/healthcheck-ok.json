@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/healthcheck/healthy"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "status": "healthy",
+      "message": "Application is running smoothly",
+      "timestamp": "{{now}}"
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}

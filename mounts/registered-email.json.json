@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/check-email",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.email == 'registered@example.com')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"message\": \"Email is registered\"}",
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}
